@@ -27,7 +27,7 @@ python export_stage_checkpoint.py \
   --model-path /data/models/llama-2-7b \
   --start-layer 0 \
   --end-layer 7 \
-  --output ./stage_checkpoints/llama2_7b_0_7 \
+  --output ./stage_checkpoints/llama2_0_7 \
   --torch-dtype source \
   --overwrite
 ```
